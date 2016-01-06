@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396D635A1C3CC8EF006063EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D63591C3CC8EF006063EC /* AppDelegate.swift */; };
+		396D635C1C3CC8EF006063EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D635B1C3CC8EF006063EC /* ViewController.swift */; };
+		396D635F1C3CC8EF006063EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D635D1C3CC8EF006063EC /* Main.storyboard */; };
+		396D63611C3CC8EF006063EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396D63601C3CC8EF006063EC /* Assets.xcassets */; };
+		396D63641C3CC8EF006063EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396D63621C3CC8EF006063EC /* LaunchScreen.storyboard */; };
+		396D636F1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D636E1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.swift */; };
+		396D637A1C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396D63791C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396D636B1C3CC8EF006063EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D634E1C3CC8EF006063EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D63551C3CC8EF006063EC;
+			remoteInfo = SampleIosCashRegisterApp;
+		};
+		396D63761C3CC8EF006063EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396D634E1C3CC8EF006063EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396D63551C3CC8EF006063EC;
+			remoteInfo = SampleIosCashRegisterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396D63561C3CC8EF006063EC /* SampleIosCashRegisterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIosCashRegisterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D63591C3CC8EF006063EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		396D635B1C3CC8EF006063EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		396D635E1C3CC8EF006063EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396D63601C3CC8EF006063EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396D63631C3CC8EF006063EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		396D63651C3CC8EF006063EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D636A1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleIosCashRegisterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D636E1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIosCashRegisterAppTests.swift; sourceTree = "<group>"; };
+		396D63701C3CC8EF006063EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396D63751C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleIosCashRegisterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396D63791C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleIosCashRegisterAppUITests.swift; sourceTree = "<group>"; };
+		396D637B1C3CC8EF006063EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396D63531C3CC8EF006063EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63671C3CC8EF006063EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63721C3CC8EF006063EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396D634D1C3CC8EF006063EC = {
+			isa = PBXGroup;
+			children = (
+				396D63581C3CC8EF006063EC /* SampleIosCashRegisterApp */,
+				396D636D1C3CC8EF006063EC /* SampleIosCashRegisterAppTests */,
+				396D63781C3CC8EF006063EC /* SampleIosCashRegisterAppUITests */,
+				396D63571C3CC8EF006063EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396D63571C3CC8EF006063EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396D63561C3CC8EF006063EC /* SampleIosCashRegisterApp.app */,
+				396D636A1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.xctest */,
+				396D63751C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396D63581C3CC8EF006063EC /* SampleIosCashRegisterApp */ = {
+			isa = PBXGroup;
+			children = (
+				396D63591C3CC8EF006063EC /* AppDelegate.swift */,
+				396D635B1C3CC8EF006063EC /* ViewController.swift */,
+				396D635D1C3CC8EF006063EC /* Main.storyboard */,
+				396D63601C3CC8EF006063EC /* Assets.xcassets */,
+				396D63621C3CC8EF006063EC /* LaunchScreen.storyboard */,
+				396D63651C3CC8EF006063EC /* Info.plist */,
+			);
+			path = SampleIosCashRegisterApp;
+			sourceTree = "<group>";
+		};
+		396D636D1C3CC8EF006063EC /* SampleIosCashRegisterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				396D636E1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.swift */,
+				396D63701C3CC8EF006063EC /* Info.plist */,
+			);
+			path = SampleIosCashRegisterAppTests;
+			sourceTree = "<group>";
+		};
+		396D63781C3CC8EF006063EC /* SampleIosCashRegisterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396D63791C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.swift */,
+				396D637B1C3CC8EF006063EC /* Info.plist */,
+			);
+			path = SampleIosCashRegisterAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396D63551C3CC8EF006063EC /* SampleIosCashRegisterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D637E1C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterApp" */;
+			buildPhases = (
+				396D63521C3CC8EF006063EC /* Sources */,
+				396D63531C3CC8EF006063EC /* Frameworks */,
+				396D63541C3CC8EF006063EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleIosCashRegisterApp;
+			productName = SampleIosCashRegisterApp;
+			productReference = 396D63561C3CC8EF006063EC /* SampleIosCashRegisterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396D63691C3CC8EF006063EC /* SampleIosCashRegisterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D63811C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterAppTests" */;
+			buildPhases = (
+				396D63661C3CC8EF006063EC /* Sources */,
+				396D63671C3CC8EF006063EC /* Frameworks */,
+				396D63681C3CC8EF006063EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D636C1C3CC8EF006063EC /* PBXTargetDependency */,
+			);
+			name = SampleIosCashRegisterAppTests;
+			productName = SampleIosCashRegisterAppTests;
+			productReference = 396D636A1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396D63741C3CC8EF006063EC /* SampleIosCashRegisterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396D63841C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterAppUITests" */;
+			buildPhases = (
+				396D63711C3CC8EF006063EC /* Sources */,
+				396D63721C3CC8EF006063EC /* Frameworks */,
+				396D63731C3CC8EF006063EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396D63771C3CC8EF006063EC /* PBXTargetDependency */,
+			);
+			name = SampleIosCashRegisterAppUITests;
+			productName = SampleIosCashRegisterAppUITests;
+			productReference = 396D63751C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396D634E1C3CC8EF006063EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kosuki;
+				TargetAttributes = {
+					396D63551C3CC8EF006063EC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					396D63691C3CC8EF006063EC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 396D63551C3CC8EF006063EC;
+					};
+					396D63741C3CC8EF006063EC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 396D63551C3CC8EF006063EC;
+					};
+				};
+			};
+			buildConfigurationList = 396D63511C3CC8EF006063EC /* Build configuration list for PBXProject "SampleIosCashRegisterApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396D634D1C3CC8EF006063EC;
+			productRefGroup = 396D63571C3CC8EF006063EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396D63551C3CC8EF006063EC /* SampleIosCashRegisterApp */,
+				396D63691C3CC8EF006063EC /* SampleIosCashRegisterAppTests */,
+				396D63741C3CC8EF006063EC /* SampleIosCashRegisterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396D63541C3CC8EF006063EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D63641C3CC8EF006063EC /* LaunchScreen.storyboard in Resources */,
+				396D63611C3CC8EF006063EC /* Assets.xcassets in Resources */,
+				396D635F1C3CC8EF006063EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63681C3CC8EF006063EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63731C3CC8EF006063EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396D63521C3CC8EF006063EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D635C1C3CC8EF006063EC /* ViewController.swift in Sources */,
+				396D635A1C3CC8EF006063EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63661C3CC8EF006063EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D636F1C3CC8EF006063EC /* SampleIosCashRegisterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396D63711C3CC8EF006063EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D637A1C3CC8EF006063EC /* SampleIosCashRegisterAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396D636C1C3CC8EF006063EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D63551C3CC8EF006063EC /* SampleIosCashRegisterApp */;
+			targetProxy = 396D636B1C3CC8EF006063EC /* PBXContainerItemProxy */;
+		};
+		396D63771C3CC8EF006063EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396D63551C3CC8EF006063EC /* SampleIosCashRegisterApp */;
+			targetProxy = 396D63761C3CC8EF006063EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396D635D1C3CC8EF006063EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D635E1C3CC8EF006063EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		396D63621C3CC8EF006063EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396D63631C3CC8EF006063EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396D637C1C3CC8EF006063EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		396D637D1C3CC8EF006063EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396D637F1C3CC8EF006063EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleIosCashRegisterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396D63801C3CC8EF006063EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleIosCashRegisterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396D63821C3CC8EF006063EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleIosCashRegisterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleIosCashRegisterApp.app/SampleIosCashRegisterApp";
+			};
+			name = Debug;
+		};
+		396D63831C3CC8EF006063EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleIosCashRegisterAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleIosCashRegisterApp.app/SampleIosCashRegisterApp";
+			};
+			name = Release;
+		};
+		396D63851C3CC8EF006063EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleIosCashRegisterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleIosCashRegisterApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		396D63861C3CC8EF006063EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SampleIosCashRegisterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.SampleIosCashRegisterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SampleIosCashRegisterApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396D63511C3CC8EF006063EC /* Build configuration list for PBXProject "SampleIosCashRegisterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D637C1C3CC8EF006063EC /* Debug */,
+				396D637D1C3CC8EF006063EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396D637E1C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D637F1C3CC8EF006063EC /* Debug */,
+				396D63801C3CC8EF006063EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D63811C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D63821C3CC8EF006063EC /* Debug */,
+				396D63831C3CC8EF006063EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396D63841C3CC8EF006063EC /* Build configuration list for PBXNativeTarget "SampleIosCashRegisterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396D63851C3CC8EF006063EC /* Debug */,
+				396D63861C3CC8EF006063EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396D634E1C3CC8EF006063EC /* Project object */;
+}
