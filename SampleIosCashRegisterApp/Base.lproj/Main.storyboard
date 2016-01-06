@@ -17,25 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="レジアプリサンプル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyC-5d-nuW">
-                                <rect key="frame" x="192" y="70" width="216" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="レジアプリサンプル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyC-5d-nuW">
+                                <rect key="frame" x="192" y="114" width="216" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPj-kT-GdJ">
-                                <rect key="frame" x="236" y="335" width="128" height="30"/>
-                                <state key="normal" title="商品登録(準備中...)"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bY-zu-ToL">
+                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <state key="normal" title="販売開始"/>
+                                <connections>
+                                    <segue destination="SBE-TT-3WW" kind="show" id="srw-ZK-Coy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu9-LC-K5K">
                                 <rect key="frame" x="251" y="385" width="98" height="30"/>
                                 <state key="normal" title="分析(準備中...)"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bY-zu-ToL">
-                                <rect key="frame" x="236" y="285" width="128" height="30"/>
-                                <state key="normal" title="販売開始"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPj-kT-GdJ">
+                                <rect key="frame" x="270" y="335" width="60" height="30"/>
+                                <state key="normal" title="商品登録"/>
                                 <connections>
-                                    <segue destination="SBE-TT-3WW" kind="show" id="srw-ZK-Coy"/>
+                                    <segue destination="c2J-mj-axt" kind="show" id="qRK-6v-L2B"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,6 +89,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eOO-OT-G3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1850" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y9e-1a-uW4">
+            <objects>
+                <viewController id="c2J-mj-axt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9m4-vq-zh1"/>
+                        <viewControllerLayoutGuide type="bottom" id="38T-hV-NEC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fam-fG-ZJn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品一覧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSm-Gg-xDg">
+                                <rect key="frame" x="252" y="114" width="96" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKZ-LJ-Ctu">
+                                <rect key="frame" x="270" y="193" width="60" height="30"/>
+                                <state key="normal" title="商品登録"/>
+                                <connections>
+                                    <segue destination="YiJ-bD-I7H" kind="show" id="qYt-Kg-WlN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JKZ-LJ-Ctu" firstAttribute="top" secondItem="eSm-Gg-xDg" secondAttribute="bottom" constant="50" id="3bm-bt-AiG"/>
+                            <constraint firstItem="eSm-Gg-xDg" firstAttribute="centerX" secondItem="Fam-fG-ZJn" secondAttribute="centerX" id="Lup-C7-igj"/>
+                            <constraint firstItem="eSm-Gg-xDg" firstAttribute="top" secondItem="9m4-vq-zh1" secondAttribute="bottom" constant="50" id="SzV-2j-21x"/>
+                            <constraint firstItem="JKZ-LJ-Ctu" firstAttribute="centerX" secondItem="Fam-fG-ZJn" secondAttribute="centerX" id="l0q-tJ-ccd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Jf-mI-G9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840" y="1206"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2jd-QD-4fx">
+            <objects>
+                <viewController id="YiJ-bD-I7H" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="046-5J-VH6"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejx-AN-D02"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jt4-IE-7Gq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品登録画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgJ-aQ-EpM">
+                                <rect key="frame" x="249" y="70" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rgJ-aQ-EpM" firstAttribute="top" secondItem="046-5J-VH6" secondAttribute="bottom" constant="50" id="bEH-uK-X6L"/>
+                            <constraint firstItem="rgJ-aQ-EpM" firstAttribute="centerX" secondItem="Jt4-IE-7Gq" secondAttribute="centerX" id="hmt-q6-DL5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cha-kh-NvX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2499" y="1206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gnW-H8-hlw">
